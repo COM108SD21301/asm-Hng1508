@@ -21,6 +21,7 @@ int main() { // Hàm chính
     int luachon;
 
     do { // Bắt đầu vòng lặp menu
+        printf("\033c"); // Xóa màn hình
         menu();
         scanf("%d", &luachon);
 
@@ -66,7 +67,7 @@ int main() { // Hàm chính
     
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn Enter hoặc phím bất kỳ để quay lại menu...");
+    printf("\nNhấn phím bất kỳ để quay lại menu...");
     scanf(" %c", &c);
     break;
 }
@@ -96,7 +97,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn Enter hoặc phím bất kỳ để quay lại menu...");
+    printf("\nNhấn phím bất kỳ để quay lại menu...");
     scanf(" %c", &c);
 
                 break;
@@ -134,7 +135,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn Enter hoặc phím bất kỳ để quay lại menu...");
+    printf("\nNhấn phím bất kỳ để quay lại menu...");
     scanf(" %c", &c);
 
             break;
