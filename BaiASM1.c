@@ -63,7 +63,11 @@ int main() { // Hàm chính
     } else {
         printf("%.2f là số thực\n", x);
     }
-
+    
+    // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
+    char c;
+    printf("\nNhấn Enter hoặc phím bất kỳ để quay lại menu...");
+    scanf(" %c", &c);
     break;
 }
 
@@ -89,6 +93,12 @@ int main() { // Hàm chính
 
                 printf("UCLN = %d\n", ucln);
                 printf("BCNN = %d\n", bcnn);
+
+    // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
+    char c;
+    printf("\nNhấn Enter hoặc phím bất kỳ để quay lại menu...");
+    scanf(" %c", &c);
+
                 break;
             }
 
@@ -121,6 +131,12 @@ int main() { // Hàm chính
                 tien = 3 * 150000 + (sogio - 3) * 120000;
 
             printf("Tiền Karaoke = %.0f VND\n", tien);
+
+    // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
+    char c;
+    printf("\nNhấn Enter hoặc phím bất kỳ để quay lại menu...");
+    scanf(" %c", &c);
+
             break;
         }
 
@@ -140,6 +156,12 @@ int main() { // Hàm chính
                     tien = 50 * 1678 + 50 * 1734 + (kw - 100) * 2014;
 
                 printf("Tiền điện = %.0f VND\n", tien);
+
+    // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
+    char c;
+    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    scanf(" %c", &c);
+
                 break;
             }
 
@@ -170,6 +192,11 @@ int main() { // Hàm chính
                 printf("Tiền lãi phải trả = %.0f VND\n", tienLai);
                 printf("Tổng tiền phải trả = %.0f VND\n", tongTien);
 
+    // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
+    char c;
+    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    scanf(" %c", &c);
+
                 break;
             }
 
@@ -177,6 +204,12 @@ int main() { // Hàm chính
             // CHỨC NĂNG 8: COMING SOON
             case 8:
                 printf("Chức năng đang phát triển...\n");
+
+    // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
+    char c;
+    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    scanf(" %c", &c);
+    
                 break;
 
             // CHỨC NĂNG 0: THOÁT CHƯƠNG TRÌNH
