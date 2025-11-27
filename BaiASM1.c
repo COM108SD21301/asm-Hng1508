@@ -67,7 +67,7 @@ int main() { // Hàm chính
     
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    printf("\nNhấn số bất kỳ để quay lại menu...");
     scanf(" %c", &c);
     break;
 }
@@ -97,7 +97,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    printf("\nNhấn số bất kỳ để quay lại menu...");
     scanf(" %c", &c);
 
                 break;
@@ -135,7 +135,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    printf("\nNhấn số bất kỳ để quay lại menu...");
     scanf(" %c", &c);
 
             break;
@@ -160,7 +160,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    printf("\nNhấn số bất kỳ để quay lại menu...");
     scanf(" %c", &c);
 
                 break;
@@ -195,7 +195,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    printf("\nNhấn số bất kỳ để quay lại menu...");
     scanf(" %c", &c);
 
                 break;
@@ -208,7 +208,7 @@ int main() { // Hàm chính
 
     // DỪNG CHƯƠNG TRÌNH ĐỂ CHỜ NGƯỜI DÙNG
     char c;
-    printf("\nNhấn phím bất kỳ để quay lại menu...");
+    printf("\nNhấn số bất kỳ để quay lại menu...");
     scanf(" %c", &c);
     
                 break;
